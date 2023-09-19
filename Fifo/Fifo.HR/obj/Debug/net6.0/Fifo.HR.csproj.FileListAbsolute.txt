@@ -1,0 +1,12 @@
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\bin\Debug\net6.0\Fifo.HR.deps.json
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\bin\Debug\net6.0\Fifo.HR.dll
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\bin\Debug\net6.0\Fifo.HR.pdb
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.csproj.AssemblyReference.cache
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.AssemblyInfoInputs.cache
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.AssemblyInfo.cs
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.csproj.CoreCompileInputs.cache
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.dll
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\refint\Fifo.HR.dll
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\Fifo.HR.pdb
+D:\Asp.Net Core 2023\Solutions\Fifo\Fifo.HR\obj\Debug\net6.0\ref\Fifo.HR.dll

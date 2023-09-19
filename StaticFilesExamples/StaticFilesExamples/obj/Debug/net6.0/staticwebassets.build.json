@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "d3sbOYsy0TQ88pnCX4hyVacHkmCH511Gvg0NR8DZYtQ=",
+  "Source": "StaticFilesExamples",
+  "BasePath": "_content/StaticFilesExamples",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StaticFilesExamples\\wwwroot",
+      "Source": "StaticFilesExamples",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\StaticFilesExamples\\StaticFilesExamples\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExamples",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\StaticFilesExamples\\StaticFilesExamples\\wwwroot\\JASAE0.pdf",
+      "SourceId": "StaticFilesExamples",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\StaticFilesExamples\\StaticFilesExamples\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExamples",
+      "RelativePath": "JASAE0.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JASAE0.pdf"
+    },
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\StaticFilesExamples\\StaticFilesExamples\\wwwroot\\photo.jpg",
+      "SourceId": "StaticFilesExamples",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\StaticFilesExamples\\StaticFilesExamples\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExamples",
+      "RelativePath": "photo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo.jpg"
+    }
+  ]
+}

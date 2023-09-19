@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Asp.Net Core 2023\\Solutions\\File-Results\\File-Results\\wwwroot\\JASAE0.pdf",
+      "PackagePath": "staticwebassets\\JASAE0.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.File-Results.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.File-Results.props",
+      "PackagePath": "build\\File-Results.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.File-Results.props",
+      "PackagePath": "buildMultiTargeting\\File-Results.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.File-Results.props",
+      "PackagePath": "buildTransitive\\File-Results.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

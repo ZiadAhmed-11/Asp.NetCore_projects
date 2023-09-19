@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Hh5K86hxppo5RtkQtkE3ecpnxuhaidwkhN21jnia8uk=",
+  "Source": "IActionResult-Example",
+  "BasePath": "_content/IActionResult-Example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IActionResult-Example\\wwwroot",
+      "Source": "IActionResult-Example",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\IActionResult-Example\\IActionResult-Example\\wwwroot\\",
+      "BasePath": "_content/IActionResult-Example",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\IActionResult-Example\\IActionResult-Example\\wwwroot\\V2.PNG",
+      "SourceId": "IActionResult-Example",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\IActionResult-Example\\IActionResult-Example\\wwwroot\\",
+      "BasePath": "_content/IActionResult-Example",
+      "RelativePath": "V2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\V2.PNG"
+    }
+  ]
+}

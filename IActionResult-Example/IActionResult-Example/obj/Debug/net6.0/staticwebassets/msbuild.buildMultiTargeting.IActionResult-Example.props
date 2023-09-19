@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IActionResult-Example.props" />
+</Project>

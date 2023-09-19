@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>File_Results</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="match.mp4" />
+  </ItemGroup>
+
+</Project>

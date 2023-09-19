@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "UMBUyDHsIRx+Smm7So7rllcBmGJTeHQCqzCo7UGH0W4=",
+  "Source": "RedirectResult-Examples",
+  "BasePath": "_content/RedirectResult-Examples",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RedirectResult-Examples\\wwwroot",
+      "Source": "RedirectResult-Examples",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\RedirectResult-Examples\\RedirectResult-Examples\\wwwroot\\",
+      "BasePath": "_content/RedirectResult-Examples",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\RedirectResult-Examples\\RedirectResult-Examples\\wwwroot\\V2.PNG",
+      "SourceId": "RedirectResult-Examples",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\RedirectResult-Examples\\RedirectResult-Examples\\wwwroot\\",
+      "BasePath": "_content/RedirectResult-Examples",
+      "RelativePath": "V2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\V2.PNG"
+    }
+  ]
+}

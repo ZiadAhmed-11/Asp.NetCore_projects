@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "zItbho1r8eMD7v3QJynK0xF/oVVgEwia0MCTjEsq4i8=",
+  "Source": "File-Results",
+  "BasePath": "_content/File-Results",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "File-Results\\wwwroot",
+      "Source": "File-Results",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\File-Results\\File-Results\\wwwroot\\",
+      "BasePath": "_content/File-Results",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\File-Results\\File-Results\\wwwroot\\JASAE0.pdf",
+      "SourceId": "File-Results",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\File-Results\\File-Results\\wwwroot\\",
+      "BasePath": "_content/File-Results",
+      "RelativePath": "JASAE0.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JASAE0.pdf"
+    }
+  ]
+}

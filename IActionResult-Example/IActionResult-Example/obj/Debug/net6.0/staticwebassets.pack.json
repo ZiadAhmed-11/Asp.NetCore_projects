@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Asp.Net Core 2023\\Solutions\\IActionResult-Example\\IActionResult-Example\\wwwroot\\V2.PNG",
+      "PackagePath": "staticwebassets\\V2.PNG"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.IActionResult-Example.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.IActionResult-Example.props",
+      "PackagePath": "build\\IActionResult-Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.IActionResult-Example.props",
+      "PackagePath": "buildMultiTargeting\\IActionResult-Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.IActionResult-Example.props",
+      "PackagePath": "buildTransitive\\IActionResult-Example.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

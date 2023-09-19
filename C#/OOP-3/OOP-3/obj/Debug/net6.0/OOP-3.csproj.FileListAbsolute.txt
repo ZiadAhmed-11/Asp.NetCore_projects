@@ -1,0 +1,15 @@
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\bin\Debug\net6.0\OOP-3.exe
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\bin\Debug\net6.0\OOP-3.deps.json
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\bin\Debug\net6.0\OOP-3.runtimeconfig.json
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\bin\Debug\net6.0\OOP-3.dll
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\bin\Debug\net6.0\OOP-3.pdb
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.csproj.AssemblyReference.cache
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.AssemblyInfoInputs.cache
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.AssemblyInfo.cs
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.csproj.CoreCompileInputs.cache
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.dll
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\refint\OOP-3.dll
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.pdb
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\OOP-3.genruntimeconfig.cache
+D:\Asp.Net Core 2023\Solutions\C#\OOP-3\OOP-3\obj\Debug\net6.0\ref\OOP-3.dll

@@ -1,0 +1,15 @@
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\bin\Debug\net6.0\Expressions.exe
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\bin\Debug\net6.0\Expressions.deps.json
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\bin\Debug\net6.0\Expressions.runtimeconfig.json
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\bin\Debug\net6.0\Expressions.dll
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\bin\Debug\net6.0\Expressions.pdb
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.csproj.AssemblyReference.cache
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.AssemblyInfoInputs.cache
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.AssemblyInfo.cs
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.csproj.CoreCompileInputs.cache
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.dll
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\refint\Expressions.dll
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.pdb
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\Expressions.genruntimeconfig.cache
+D:\Asp.Net Core 2023\Solutions\C#\Expressions\Expressions\obj\Debug\net6.0\ref\Expressions.dll
