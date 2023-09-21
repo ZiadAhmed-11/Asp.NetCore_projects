@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ModelBinding1-FromRoute-Query/1.0.0": {
+        "runtime": {
+          "ModelBinding1-FromRoute-Query.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelBinding1-FromRoute-Query/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

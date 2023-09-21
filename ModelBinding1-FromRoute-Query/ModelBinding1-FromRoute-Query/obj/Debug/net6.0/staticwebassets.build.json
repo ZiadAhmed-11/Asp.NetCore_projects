@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "w06zJXRFyormf6r0LRVZgCSaXCUxKecMJL1hIlPxY/Y=",
+  "Source": "ModelBinding1-FromRoute-Query",
+  "BasePath": "_content/ModelBinding1-FromRoute-Query",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ModelBinding1-FromRoute-Query\\wwwroot",
+      "Source": "ModelBinding1-FromRoute-Query",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ModelBinding1-FromRoute-Query\\ModelBinding1-FromRoute-Query\\wwwroot\\",
+      "BasePath": "_content/ModelBinding1-FromRoute-Query",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\ModelBinding1-FromRoute-Query\\ModelBinding1-FromRoute-Query\\wwwroot\\V2.PNG",
+      "SourceId": "ModelBinding1-FromRoute-Query",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ModelBinding1-FromRoute-Query\\ModelBinding1-FromRoute-Query\\wwwroot\\",
+      "BasePath": "_content/ModelBinding1-FromRoute-Query",
+      "RelativePath": "V2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\V2.PNG"
+    }
+  ]
+}

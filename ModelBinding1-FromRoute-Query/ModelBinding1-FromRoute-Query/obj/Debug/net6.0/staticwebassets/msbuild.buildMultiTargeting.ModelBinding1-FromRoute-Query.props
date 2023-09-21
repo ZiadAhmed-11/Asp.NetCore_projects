@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ModelBinding1-FromRoute-Query.props" />
+</Project>

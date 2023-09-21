@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Asp.Net Core 2023\\Solutions\\ModelBinding1-FromRoute-Query\\ModelBinding1-FromRoute-Query\\wwwroot\\V2.PNG",
+      "PackagePath": "staticwebassets\\V2.PNG"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ModelBinding1-FromRoute-Query.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ModelBinding1-FromRoute-Query.props",
+      "PackagePath": "build\\ModelBinding1-FromRoute-Query.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ModelBinding1-FromRoute-Query.props",
+      "PackagePath": "buildMultiTargeting\\ModelBinding1-FromRoute-Query.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ModelBinding1-FromRoute-Query.props",
+      "PackagePath": "buildTransitive\\ModelBinding1-FromRoute-Query.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
