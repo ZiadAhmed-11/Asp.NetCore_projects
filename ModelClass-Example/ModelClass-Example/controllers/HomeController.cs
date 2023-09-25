@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
-namespace IActionResult_Example.controllers
+using ModelClass_Example.Models;
+namespace ModelClass_Example.controllers
 {
     public class HomeController : Controller
     {
         //the final url we need : http://localhost:5067/book?bookid=10&isloggedin=true
 
         [Route("book")]
-        public IActionResult Index([FromQuery] int? bookid, [FromQuery] bool? isloggedin)
+        public IActionResult Index([FromQuery] int? bookid, [FromQuery] bool? isloggedin,Book book)
         {
             // book id should be applied
             if (bookid.HasValue == false)
