@@ -1,9 +1,8 @@
-﻿using ModelValidations_Example.CustomValidators;
-using System.ComponentModel.DataAnnotations;
-
-namespace ModelValidations_Example.Models
+﻿using System.ComponentModel.DataAnnotations;
+using CustomValidations_Examples2.CustomValidators;
+namespace ModelValidations_Examples2.Models
 {
-    public class Person:IValidatableObject
+    public class Person
     {
         [Required(ErrorMessage = "{0} can't be empty or null")]
         [Display(Name = "Person name")]
@@ -24,30 +23,17 @@ namespace ModelValidations_Example.Models
         [Range(0,999.99,ErrorMessage ="{0} should be between {1} and {2} ")]
         public double? Price { get; set; }
 
-        [MinimumYearValidatorAttr]
-        public DateTime? DateOfBirth { get; set; }
-
-        // (From Date) Should be older than (To date) -- Compare 
+        [DateRangeValidator("FromDate",ErrorMessage="From date should be older than or equal to 'To date'")]
         public DateTime? FromDate { get; set; }
 
-        [DateRangeValidator("FromDate",ErrorMessage= "(From Date) Should be older than (To date)")]
-        public DateTime? ToDate { get; set; }
+        public DateTime? ToDate { get; set; }   
 
-        public int? Age { get; set; }
-
+        [MinimumYearValidatorAttribute]
+        public DateTime? DateOfBirth { get; set; }
 
         public override string ToString()
         {
             return $"Person Object - Person Name: {PersonName}, Email: {Email}, Phone: {Phone}, Password: {Password}, Confirm Password: {ConfirmPassword}, Price: {Price}";
-        }
-
-        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
-        {
-            if (DateOfBirth.HasValue == false && Age.HasValue == false)
-            {
-                yield return new ValidationResult("Either of Date of Birth or Age should be supplid.");
-            }
-            
         }
     }
 }

@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ModelValidations_Example.CustomModelBinders;
-using ModelValidations_Example.Models;
+using ModelValidations_Examples2.Models;
+
 namespace ModelValidations_Example.controllers
 {
     public class HomeController : Controller
     {
         [Route("register")]
-        public IActionResult Index([FromBody] [ModelBinder(BinderType =typeof(PersonModelBinder))]Person person)
+        public IActionResult Index(Person person)
         {
-            if (!ModelState.IsValid) {
+            if (!ModelState.IsValid)
+            {
                 //List<string> errorsList = new List<string>(); 
-                string errors = string.Join("\n",ModelState.Values.SelectMany(value => value.Errors).Select(error => error.ErrorMessage));
+                string errors = string.Join("\n", ModelState.Values.SelectMany(value => value.Errors).Select(error => error.ErrorMessage));
                 /*foreach(var value in ModelState.Values)  //All values
                 {
                     foreach( var error in value.Errors)  //all error in one value
@@ -19,8 +20,9 @@ namespace ModelValidations_Example.controllers
                     }
                 }*/
 
-/*                string errors = string.Join("\n", errorsList);    
-*/            return BadRequest(errors);
+                /*                string errors = string.Join("\n", errorsList);    
+                */
+                return BadRequest(errors);
             }
             return Content($"{person}");
         }
