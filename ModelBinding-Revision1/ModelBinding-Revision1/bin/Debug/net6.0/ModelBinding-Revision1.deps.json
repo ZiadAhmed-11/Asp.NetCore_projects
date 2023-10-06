@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ModelBinding-Revision1/1.0.0": {
+        "runtime": {
+          "ModelBinding-Revision1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelBinding-Revision1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
