@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "oUUsZniRBAJ7PVCC8qznmQbMc4YzE30typ4nO3jbaEU=",
+  "Source": "ViewsExample",
+  "BasePath": "_content/ViewsExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewsExample\\wwwroot",
+      "Source": "ViewsExample",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ViewsExample\\ViewsExample\\wwwroot\\",
+      "BasePath": "_content/ViewsExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
