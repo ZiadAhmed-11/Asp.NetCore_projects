@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Asp.Net Core 2023\Solutions\ViewsExample\ViewsExample
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Asp.Net Core 2023/Solutions/ViewsExample/ViewsExample/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Asp.Net Core 2023/Solutions/ViewsExample/ViewsExample/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net Core 2023/Solutions/ViewsExample/ViewsExample/Views/Home/PersonWithProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJzb25XaXRoUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

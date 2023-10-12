@@ -1,0 +1,28 @@
+﻿@model ViewsExample.Models.Person
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Person Details</title>
+        <meta charset="utf-8"/>
+        <link href="~/StyleSheet.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="page-content">
+            <h1>Person Details</h1>
+            <div class="box w-50">
+            <h3>@Model.name</h3>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>@Model.DateOfBirth?.ToString("dd/MM/yyyy")</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <a href="/">Home</a>
+
+        </div>
+    </body>
+</html>

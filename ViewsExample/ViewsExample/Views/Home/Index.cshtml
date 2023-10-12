@@ -1,25 +1,35 @@
 ﻿@using ViewsExample.Models;
-@{
-    string appTitle = "Asp.Net Core App";
-    Person person = new Person() { name = "Ziad", DateOfBirth = Convert.ToDateTime("2002-08-11") };
-}
+
+@model IEnumerable<Person>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>@appTitle</title>
+        <title>@ViewBag.AppTitle</title>
         <meta charset="utf-8" />
+        <link href="~/StyleSheet.css" rel="stylesheet"/>
     </head>
     <body>
-    <h1>Welcome</h1>
-    <h2>Hello @person.name</h2>
-    @if(person.DateOfBirth.HasValue)
-    {
-        double age = Math.Round((DateTime.Now - person.DateOfBirth).Value.TotalDays / 365.25);
-        <h3>@age years old</h3>
-    }
-    else
-    {
-        <h3>Date of birth is unknown</h3>
-    }
+        <div class="page-content">
+   <h1>Persons,</h1>
+    @{
+            @foreach(Person person in Model){ 
+            <div class="box float-left w-50">
+                    <h3> @person.name</h3>
+                <table class="table w-100">
+                <tbody>
+                <tr><td>Date of Birth</td>
+                                <td>@person.DateOfBirth?.ToString("MM/dd/yyyy")</td>
+                </tr>
+                </tbody>
+                </table>
+               <div> <a href="/person-details/@person.name">Details</a></div>
+            
+        </div>
+        
+    }}
+        <div>
+            <a href="/person-with-product">Person With Product</a>
+        </div>
+    </div>
 </body>
 </html>

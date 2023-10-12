@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "32GN+9rt5yLjbT36cCacY1ciTAAnoSFhANqAdF0qcV4=",
+  "Source": "wheather-RazorView",
+  "BasePath": "_content/wheather-RazorView",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "wheather-RazorView\\wwwroot",
+      "Source": "wheather-RazorView",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\Assignments\\wheather-RazorView\\wheather-RazorView\\wwwroot\\",
+      "BasePath": "_content/wheather-RazorView",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\Assignments\\wheather-RazorView\\wheather-RazorView\\wwwroot\\StyleSheet.css",
+      "SourceId": "wheather-RazorView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\Assignments\\wheather-RazorView\\wheather-RazorView\\wwwroot\\",
+      "BasePath": "_content/wheather-RazorView",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
