@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <fiv class="container">
+        <div class="navbar">
+            <div class="navbar-brand">Asp.Net Core App Demo</div>
+            <ul>
+                <li><a href="~/">Home</a></li>
+                <li><a href="~/about">About</a></li>
+            </ul>
+        </div>
+    </fiv>
+    <div class="page-content">
+
+        @RenderBody()
+    </div>
+</body>
+</html>

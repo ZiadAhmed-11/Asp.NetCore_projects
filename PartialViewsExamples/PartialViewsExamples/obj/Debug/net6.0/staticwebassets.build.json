@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "/ZkgpA2oVpyJXpXbxdbwsUCSukFEx3VH+GXYmGpciEk=",
+  "Source": "PartialViewsExamples",
+  "BasePath": "_content/PartialViewsExamples",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PartialViewsExamples\\wwwroot",
+      "Source": "PartialViewsExamples",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\PartialViewsExamples\\PartialViewsExamples\\wwwroot\\",
+      "BasePath": "_content/PartialViewsExamples",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\PartialViewsExamples\\PartialViewsExamples\\wwwroot\\StyleSheet.css",
+      "SourceId": "PartialViewsExamples",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\PartialViewsExamples\\PartialViewsExamples\\wwwroot\\",
+      "BasePath": "_content/PartialViewsExamples",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

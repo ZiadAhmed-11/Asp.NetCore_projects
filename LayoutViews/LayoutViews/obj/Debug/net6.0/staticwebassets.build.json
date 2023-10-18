@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "v8ZLah+RMrOpurwjl+qjGqTMMV9L4AYYtW3NMdZGs78=",
+  "Source": "LayoutViews",
+  "BasePath": "_content/LayoutViews",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LayoutViews\\wwwroot",
+      "Source": "LayoutViews",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\Assignments\\LayoutViews\\LayoutViews\\wwwroot\\",
+      "BasePath": "_content/LayoutViews",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\Assignments\\LayoutViews\\LayoutViews\\wwwroot\\StyleSheet.css",
+      "SourceId": "LayoutViews",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\Assignments\\LayoutViews\\LayoutViews\\wwwroot\\",
+      "BasePath": "_content/LayoutViews",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

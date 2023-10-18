@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "6J/qq5xMEMEKhPYACIafYhhyFKSc6cZZH+YpcLtXMbQ=",
+  "Source": "ViewComponentsExample",
+  "BasePath": "_content/ViewComponentsExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponentsExample\\wwwroot",
+      "Source": "ViewComponentsExample",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ViewComponentsExample\\ViewComponentsExample\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\ViewComponentsExample\\ViewComponentsExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponentsExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ViewComponentsExample\\ViewComponentsExample\\wwwroot\\",
+      "BasePath": "_content/ViewComponentsExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

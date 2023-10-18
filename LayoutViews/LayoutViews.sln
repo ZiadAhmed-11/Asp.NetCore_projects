@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutViews", "LayoutViews\LayoutViews.csproj", "{9132C7F7-892F-480F-BCD3-69FFB35E596A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9132C7F7-892F-480F-BCD3-69FFB35E596A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9132C7F7-892F-480F-BCD3-69FFB35E596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9132C7F7-892F-480F-BCD3-69FFB35E596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9132C7F7-892F-480F-BCD3-69FFB35E596A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67F4B81E-7256-4494-8944-9FB7FE6B65DD}
+	EndGlobalSection
+EndGlobal
