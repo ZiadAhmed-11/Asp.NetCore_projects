@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Jy260ypMDFJLhzTdhI38i12ta1EIAAbnGVVRJQTZrt8=",
+  "Source": "DI-Example",
+  "BasePath": "_content/DI-Example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DI-Example\\wwwroot",
+      "Source": "DI-Example",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\DI-Example\\DI-Example\\wwwroot\\",
+      "BasePath": "_content/DI-Example",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\DI-Example\\DI-Example\\wwwroot\\StyleSheet.css",
+      "SourceId": "DI-Example",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\DI-Example\\DI-Example\\wwwroot\\",
+      "BasePath": "_content/DI-Example",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\bin\Debug\net6.0\Services.deps.json
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\bin\Debug\net6.0\Services.dll
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\bin\Debug\net6.0\Services.pdb
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.dll
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\refint\Services.dll
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.pdb
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\ref\Services.dll
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\bin\Debug\net6.0\ServiceContract.dll
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\bin\Debug\net6.0\ServiceContract.pdb
+D:\Asp.Net Core 2023\Solutions\DI-Example\Services\obj\Debug\net6.0\Services.csproj.CopyComplete

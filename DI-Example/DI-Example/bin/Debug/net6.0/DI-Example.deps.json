@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DI-Example/1.0.0": {
+        "dependencies": {
+          "ServiceContract": "1.0.0",
+          "Services": "1.0.0"
+        },
+        "runtime": {
+          "DI-Example.dll": {}
+        }
+      },
+      "ServiceContract/1.0.0": {
+        "runtime": {
+          "ServiceContract.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "ServiceContract": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DI-Example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
