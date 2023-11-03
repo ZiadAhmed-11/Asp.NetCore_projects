@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<h1>Home</h1>
+<div class="box">
+    Environment: @ViewBag.currentEnvironment
+</div>
+
+<environment include="Development">
+    <button class="Button blue-back">Button only for development environment</button>
+    </environment>

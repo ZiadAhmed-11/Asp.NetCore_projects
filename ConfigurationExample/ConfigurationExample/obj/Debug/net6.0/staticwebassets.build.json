@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "GEaLosFrhK9YWXfGqRwvmOKmnlfnUvHtyYlmmWsORRM=",
+  "Source": "ConfigurationExample",
+  "BasePath": "_content/ConfigurationExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ConfigurationExample\\wwwroot",
+      "Source": "ConfigurationExample",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ConfigurationExample\\ConfigurationExample\\wwwroot\\",
+      "BasePath": "_content/ConfigurationExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\ConfigurationExample\\ConfigurationExample\\wwwroot\\StyleSheet.css",
+      "SourceId": "ConfigurationExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\ConfigurationExample\\ConfigurationExample\\wwwroot\\",
+      "BasePath": "_content/ConfigurationExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
