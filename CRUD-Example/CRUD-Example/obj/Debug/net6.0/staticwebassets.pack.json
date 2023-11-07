@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Asp.Net Core 2023\\Solutions\\CRUD-Example\\CRUD-Example\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CRUD-Example.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CRUD-Example.props",
+      "PackagePath": "build\\CRUD-Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CRUD-Example.props",
+      "PackagePath": "buildMultiTargeting\\CRUD-Example.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CRUD-Example.props",
+      "PackagePath": "buildTransitive\\CRUD-Example.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
