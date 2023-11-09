@@ -97,3 +97,10 @@ D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\obj\Debug\net6.0\refint\CR
 D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\obj\Debug\net6.0\CRUDtests.pdb
 D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\obj\Debug\net6.0\CRUDtests.genruntimeconfig.cache
 D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\obj\Debug\net6.0\ref\CRUDtests.dll
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\Entities.dll
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\ServiceContracts.dll
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\Services.dll
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\Entities.pdb
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\ServiceContracts.pdb
+D:\Asp.Net Core 2023\Solutions\CRUD-Example\CRUDtests\bin\Debug\net6.0\Services.pdb
