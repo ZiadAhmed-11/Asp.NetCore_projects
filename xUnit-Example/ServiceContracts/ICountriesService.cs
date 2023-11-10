@@ -14,6 +14,11 @@ namespace ServiceContracts
         /// <param name="countryAddRequest">Country object to add </param>
         /// <returns>REturns the country object after adding it(with Id)</returns>
         CountryResponse AddCountry(CountryAddRequest? countryAddRequest);
-       
+
+        /// <summary>
+        /// Returns all countries from the list
+        /// </summary>
+        /// <returns></returns>
+        List<CountryResponse> GetAllCountries();
     }
 }

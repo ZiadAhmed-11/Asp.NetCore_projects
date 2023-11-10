@@ -1,0 +1,12 @@
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\bin\Debug\net6.0\Entities.dll
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\bin\Debug\net6.0\Entities.pdb
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.dll
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\Entities.pdb
+D:\Asp.Net Core 2023\Solutions\xUnit-Example\Entities\obj\Debug\net6.0\ref\Entities.dll
