@@ -8,7 +8,10 @@ namespace ServiceContracts.DTO
     {
         public Guid CountryId { get; set; }
         public string? CountryName { get; set; }
-
+       /* public override bool Equals(object? obj)
+        {
+            return base.Equals(obj);
+        }*/
     }
 
     public static class CountryExtensions
