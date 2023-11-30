@@ -47,7 +47,7 @@ namespace Services
             return _countries.Select(country => country.ToCountryResponse()).ToList();
         }
 
-        public CountryResponse? GetCountryById(Guid? countryId)
+        public CountryResponse? GetCountryById(Guid countryId)
         {
             if (countryId == null)
                 return null;
@@ -58,5 +58,7 @@ namespace Services
             return country_response_from_list.ToCountryResponse();
 
         }
+
+
     }
 }

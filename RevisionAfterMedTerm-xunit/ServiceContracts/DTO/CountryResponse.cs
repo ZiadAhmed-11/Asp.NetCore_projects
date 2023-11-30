@@ -12,6 +12,8 @@ namespace ServiceContracts.DTO
         {
             return base.Equals(obj);
         }*/
+
+
     }
 
     public static class CountryExtensions
