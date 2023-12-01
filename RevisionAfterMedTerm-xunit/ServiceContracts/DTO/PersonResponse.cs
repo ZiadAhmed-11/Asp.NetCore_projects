@@ -1,11 +1,13 @@
 ﻿using Entities;
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
 namespace ServiceContracts.DTO
 {
     public class PersonResponse
     {
+        
         public Guid PersonId { get; set; }
         public string? PersonName { get; set; }
         public string? Email { get; set; }
@@ -32,6 +34,11 @@ namespace ServiceContracts.DTO
         public override int GetHashCode()
         {
             throw new NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return $"Person Id: {PersonId},Person Name: {PersonName},Email: {Email}, Date of birth: {DateOfBirth?.ToString("dd MMM yyyy")}, Gender: {Gender}, Country Id: {CountryId}, Country: {Country}, Address: {Address}, Receive news letters: {ReceiveNewsLetters}";
         }
 
     }
