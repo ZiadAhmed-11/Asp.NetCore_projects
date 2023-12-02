@@ -14,10 +14,32 @@ namespace Services
         private readonly List<Person> _persons;
         private readonly ICountriesServices _countriesServices;
         //constructor
-        public PersonsService()
+        public PersonsService(bool initalize=true)
         {
             _persons = new List<Person>();
             _countriesServices=new CountriesService();
+            if(initalize)
+            {
+                //
+                //2D2AEB08-3469-413B-B2E2-312D176E96E1
+                //F9C2F799-3DBC-43E9-8FE9-4A2A153E4343
+                //21406194-6B52-42ED-9A29-2EF68D5D4415
+                _persons.Add(new Person() { PersonId = Guid.Parse("A1947EFA-5335-451F-835A-8C313D39809B"),PersonName= "Rhetta",Email= "redmott0@nature.com",DateOfBirth=DateTime.Parse( "1/14/2022"),Gender= "Female",Address= "54 Almo Place",ReceiveNewsLetters=true,CountryId=Guid.Parse ("86507429-B66C-4414-A6B0-1515726E71BE") });
+                _persons.Add(new Person() { PersonId = Guid.Parse("DA7BA8D0-A77D-4B9D-810E-5FA89B1EBF45"), PersonName = "Olivie", Email = "oterren1@dagondesign.com", DateOfBirth = DateTime.Parse("11/15/2011"), Gender = "Female", Address = "1 Luster Park", ReceiveNewsLetters = true, CountryId = Guid.Parse("86507429-B66C-4414-A6B0-1515726E71BE") });
+
+                /* 
+                
+,,Female,,true
+Tootsie,tmarten2@dagondesign.com,3/10/2000,Female,571 Namekagon Center,true
+Hansiain,hboyan3@w3.org,5/29/2019,Male,97018 Daystar Park,false
+Catharina,cgennerich4@nps.gov,5/15/2001,Female,8 West Way,false
+Clayton,cdrescher5@huffingtonpost.com,7/26/2002,Male,4862 Talmadge Pass,false
+Aigneis,abonnavant6@unicef.org,8/21/2019,Female,507 Arkansas Parkway,false
+Catlin,ccomellini7@hud.gov,6/2/2021,Female,8704 Meadow Vale Drive,true
+Pennie,pbaunton8@tiny.cc,11/2/2010,Male,39342 Fallview Center,true
+Nestor,nbraunroth9@themeforest.net,1/12/2018,Genderfluid,871 Grim Court,true
+                */
+            }
         }
 
         private PersonResponse ConvertPersonToPersonResponse(Person person)
@@ -168,6 +190,41 @@ namespace Services
             } ;
 
             return sortedPersons;
+        }
+
+        public PersonResponse UpdatePerson(PersonUpdateRequest? personUpdateRequest)
+        {
+            if (personUpdateRequest == null)
+                throw new ArgumentNullException(nameof(personUpdateRequest));
+            ValidationHelper.ModelValidation(personUpdateRequest);
+
+            //get matching person object to update
+            Person? matchingPerson = _persons.FirstOrDefault(temp => temp.PersonId == personUpdateRequest.PersonId);
+            if (matchingPerson == null)
+                throw new ArgumentException("Given person id doesn't exist");
+            
+            //update all details
+            matchingPerson.PersonName= personUpdateRequest.PersonName;
+            matchingPerson.Email= personUpdateRequest.Email;
+            matchingPerson.DateOfBirth = personUpdateRequest.DateOfBirth;
+            matchingPerson.Gender = personUpdateRequest.Gender.ToString();
+            matchingPerson.Address = personUpdateRequest.Address;
+            matchingPerson.CountryId=personUpdateRequest.CountryId;
+            matchingPerson.ReceiveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
+
+            return matchingPerson.ToPersonResponse();
+        }
+
+        public bool DeletePerson(Guid? personId)
+        {
+            if (personId == null)
+                throw new ArgumentNullException(nameof(personId));
+            Person? person = _persons.FirstOrDefault(temp => temp.PersonId == personId);
+            if (person == null)
+                return false;
+
+            _persons.RemoveAll(temp => temp.PersonId == personId);
+            return true;
         }
     }
 }

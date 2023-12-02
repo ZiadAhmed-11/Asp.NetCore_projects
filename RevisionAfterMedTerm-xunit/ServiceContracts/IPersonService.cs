@@ -13,6 +13,10 @@ namespace ServiceContracts
 
         List<PersonResponse> GetFilteredPersons(string searchBy, string? searchstring);
 
-        List<PersonResponse> GetSortedPersons(List<PersonResponse> addPersons, string sortBy, SortOrderOptions sortOrder); 
+        List<PersonResponse> GetSortedPersons(List<PersonResponse> addPersons, string sortBy, SortOrderOptions sortOrder);
+
+        PersonResponse UpdatePerson(PersonUpdateRequest? personUpdateRequest);
+        bool DeletePerson(Guid? personId);
+
     }
 }

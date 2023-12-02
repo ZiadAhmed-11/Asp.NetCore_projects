@@ -4,14 +4,14 @@
     "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj": {}
   },
   "projects": {
-    "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj": {
+    "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj",
-        "projectName": "RevisionAfterMedTerm-xunit",
-        "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj",
+        "projectUniqueName": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
-        "outputPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\obj\\",
+        "outputPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,9 +51,193 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj",
+        "projectName": "RevisionAfterMedTerm-xunit",
+        "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit.csproj",
+        "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
+        "outputPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj"
+              },
+              "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj"
+              },
+              "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Services\\Services.csproj": {
+                "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj",
+        "projectName": "ServiceContracts",
+        "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
+        "outputPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
+        "outputPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\ServiceContracts\\ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RevisionAfterMedTerm-xunit.props" />
+</Project>

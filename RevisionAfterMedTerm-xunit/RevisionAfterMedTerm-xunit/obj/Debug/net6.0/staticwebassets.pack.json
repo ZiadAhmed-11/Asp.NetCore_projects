@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\wwwroot\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheet.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RevisionAfterMedTerm-xunit.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RevisionAfterMedTerm-xunit.props",
+      "PackagePath": "build\\RevisionAfterMedTerm-xunit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RevisionAfterMedTerm-xunit.props",
+      "PackagePath": "buildMultiTargeting\\RevisionAfterMedTerm-xunit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RevisionAfterMedTerm-xunit.props",
+      "PackagePath": "buildTransitive\\RevisionAfterMedTerm-xunit.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

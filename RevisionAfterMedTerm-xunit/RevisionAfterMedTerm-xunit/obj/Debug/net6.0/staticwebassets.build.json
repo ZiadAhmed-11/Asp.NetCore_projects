@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "2ajQPP60k5fk6hVmald4WYvIKIogLJ0VGRCzanR9j7Y=",
+  "Source": "RevisionAfterMedTerm-xunit",
+  "BasePath": "_content/RevisionAfterMedTerm-xunit",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RevisionAfterMedTerm-xunit\\wwwroot",
+      "Source": "RevisionAfterMedTerm-xunit",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\wwwroot\\",
+      "BasePath": "_content/RevisionAfterMedTerm-xunit",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\wwwroot\\StyleSheet.css",
+      "SourceId": "RevisionAfterMedTerm-xunit",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\RevisionAfterMedTerm-xunit\\RevisionAfterMedTerm-xunit\\wwwroot\\",
+      "BasePath": "_content/RevisionAfterMedTerm-xunit",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
