@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome
 /6.5.1/css/fontawesome.min.css" integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGI
 gAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA==" crossorigin="anonymous" refe
-    rrerpolicy="no-referrer" />
+          rrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div>
-        <div class="container">
-            <div class="navbar">
-                <div class="navbar-brand">CRUD Demo</div>
-                <ul>
-                    <li><a href="~/persons/index">Persons</a></li>
-                </ul>
-            </div>
-            <div class="page-content">
-                @RenderBody()
-            </div>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">CRUD Demo</div>
+            <ul>
+                <li>
+                    <a href="~/persons/index">Persons</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-content">
+            @RenderBody()
         </div>
     </div>
 </body>
