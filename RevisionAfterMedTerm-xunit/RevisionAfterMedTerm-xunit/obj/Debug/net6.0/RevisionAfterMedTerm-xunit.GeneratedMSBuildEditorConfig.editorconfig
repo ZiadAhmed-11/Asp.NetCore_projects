@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\RevisionAfterMedTerm-xunit
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Asp.Net Core 2023/Solutions/RevisionAfterMedTerm-xunit/RevisionAfterMedTerm-xunit/Views/Persons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Asp.Net Core 2023/Solutions/RevisionAfterMedTerm-xunit/RevisionAfterMedTerm-xunit/Views/Persons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Asp.Net Core 2023/Solutions/RevisionAfterMedTerm-xunit/RevisionAfterMedTerm-xunit/Views/Shared/_GridColumnHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HcmlkQ29sdW1uSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Asp.Net Core 2023/Solutions/RevisionAfterMedTerm-xunit/RevisionAfterMedTerm-xunit/Views/Shared/_Layout.cshtml]

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "x+3agY86u+vjnN0sXVgeKWlAf1Q1VpvORg8mIXw8/mM=",
+  "Source": "CRUD-Example2",
+  "BasePath": "_content/CRUD-Example2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CRUD-Example2\\wwwroot",
+      "Source": "CRUD-Example2",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\CRUD-Example2\\CRUD-Example2\\wwwroot\\",
+      "BasePath": "_content/CRUD-Example2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Asp.Net Core 2023\\Solutions\\CRUD-Example2\\CRUD-Example2\\wwwroot\\StyleSheet.css",
+      "SourceId": "CRUD-Example2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Asp.Net Core 2023\\Solutions\\CRUD-Example2\\CRUD-Example2\\wwwroot\\",
+      "BasePath": "_content/CRUD-Example2",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

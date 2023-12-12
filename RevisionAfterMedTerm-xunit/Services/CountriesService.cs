@@ -48,7 +48,7 @@ namespace Services
             }
             if (_countries.Where(temp => temp.CountryName == countryAddRequest.CountryName).Count() > 0)
             {
-                throw new ArgumentException("Country Name already existd");
+                throw new ArgumentException("Country Name already existed");
             }
 
             //convert object from CountryAddRequest to Country type

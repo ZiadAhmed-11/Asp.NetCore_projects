@@ -1,0 +1,5 @@
+D:\Asp.Net Core 2023\Solutions\CRUD-Example2\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+D:\Asp.Net Core 2023\Solutions\CRUD-Example2\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.Net Core 2023\Solutions\CRUD-Example2\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+D:\Asp.Net Core 2023\Solutions\CRUD-Example2\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+D:\Asp.Net Core 2023\Solutions\CRUD-Example2\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
