@@ -6,8 +6,8 @@ using Entities;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton<ICountriesServices,CountriesService>();
-builder.Services.AddSingleton<IPersonService,PersonsService >();
+builder.Services.AddScoped<ICountriesServices,CountriesService>();
+builder.Services.AddScoped<IPersonService,PersonsService >();
 
 
 builder.Services.AddDbContext<PersonsDbContext>(options =>

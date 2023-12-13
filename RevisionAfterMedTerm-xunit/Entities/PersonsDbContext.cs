@@ -21,20 +21,40 @@ namespace Entities
             modelBuilder.Entity<Person>().ToTable("Persons");
 
             //Seed to Countries
-            string countriesJson = System.IO.File.ReadAllText("countries.json");
-            List<Country> countries = System.Text.Json.JsonSerializer.Deserialize<List<Country>>(countriesJson);
+            /*  string countriesJson = System.IO.File.ReadAllText("countries.json");
+              List<Country> countries = System.Text.Json.JsonSerializer.Deserialize<List<Country>>(countriesJson);*/
 
-            foreach (Country country in countries)
-                modelBuilder.Entity<Country>().HasData(country);
+            /*foreach (Country country in countries)*/
+            modelBuilder.Entity<Country>().HasData(new Country()
+            {
+                CountryId =Guid.Parse( "14629847-905a-4a0e-9abe-80b61655c5cb"),
+                CountryName = "Cairo"
+            }); ;
 
 
             //Seed to Persons
-            string personsJson = System.IO.File.ReadAllText("persons.json");
-            List<Person> persons = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(personsJson);
+            /* string personsJson = System.IO.File.ReadAllText("persons.json");
+             List<Person> persons = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(personsJson);
 
-            foreach (Person person in persons)
-                modelBuilder.Entity<Person>().HasData(person);
+             foreach (Person person in persons)*/
+            modelBuilder.Entity<Person>().HasData(new Person()
+            {
+                PersonId = Guid.NewGuid(),
+                PersonName = "Ziad",
+                Email = "Ziad.Ahmed202@gmail.com",
+                Address = "KimanFaris",
+                CountryId = Guid.Parse("14629847-905a-4a0e-9abe-80b61655c5cb")
+            });
 
+        }
+
+        /*public IQueryable<Person> sp_GetAllPersons()
+        {
+            return Persons.FromSqlRaw("Execute [dbo].[GetAllPersons]");
+        }*/
+        public List<Person> sp_GetAllPersons()
+        {
+            return Persons.FromSqlRaw("Execute [dbo].[GetAllPersons]").ToList();
         }
     }
 }
