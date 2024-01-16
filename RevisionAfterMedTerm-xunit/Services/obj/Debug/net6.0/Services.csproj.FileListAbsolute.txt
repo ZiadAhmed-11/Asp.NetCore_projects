@@ -15,3 +15,4 @@ D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Services\obj\Debug\net
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Services\obj\Debug\net6.0\refint\Services.dll
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Services\obj\Debug\net6.0\Services.pdb
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Services\obj\Debug\net6.0\ref\Services.dll
+D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Services\obj\Debug\net6.0\Services.sourcelink.json

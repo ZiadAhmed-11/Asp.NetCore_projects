@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 namespace Entities
 {
@@ -27,7 +28,7 @@ namespace Entities
             /*foreach (Country country in countries)*/
             modelBuilder.Entity<Country>().HasData(new Country()
             {
-                CountryId =Guid.Parse( "14629847-905a-4a0e-9abe-80b61655c5cb"),
+                CountryId = Guid.Parse("14629847-905a-4a0e-9abe-80b61655c5cb"),
                 CountryName = "Cairo"
             }); ;
 
@@ -54,7 +55,23 @@ namespace Entities
         }*/
         public List<Person> sp_GetAllPersons()
         {
-            return Persons.FromSqlRaw("Execute [dbo].[GetAllPersons]").ToList();
+            return Persons.FromSqlRaw("EXECUTE [dbo].[GetAllPersons]").ToList();
+        }
+
+        public int sp_InsertPerson(Person person)
+        {
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@PersonId",person.PersonId),
+                new SqlParameter("@PersonName",person.PersonName),
+                new SqlParameter("@Email",person.Email),
+                new SqlParameter("@DateOfBirth",person.DateOfBirth),
+                new SqlParameter("@Gender",person.Gender),
+                new SqlParameter("@CountryId",person.CountryId),
+                new SqlParameter("@Address",person.Address),
+                new SqlParameter("@ReceiveNewsLetters",person.ReceiveNewsLetters)
+};
+            return Database.ExecuteSqlRaw("EXECUTE [dbo].[InsertPerson] @PersonId ,@PersonName ,@Email,@DateOfBirth,@Gender,@CountryId,@Address,@ReceiveNewsLetters", parameters);
         }
     }
 }

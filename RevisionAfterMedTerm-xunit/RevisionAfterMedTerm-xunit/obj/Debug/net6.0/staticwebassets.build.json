@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2ajQPP60k5fk6hVmald4WYvIKIogLJ0VGRCzanR9j7Y=",
+  "Hash": "BFVIpD6JTeaW+dg2bDpmxtBgr0bOU6bhEcsy4NY8DH0=",
   "Source": "RevisionAfterMedTerm-xunit",
   "BasePath": "_content/RevisionAfterMedTerm-xunit",
   "Mode": "Default",
@@ -26,6 +26,8 @@
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",

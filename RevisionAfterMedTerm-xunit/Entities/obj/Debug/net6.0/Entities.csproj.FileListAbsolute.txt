@@ -12,3 +12,4 @@ D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Entities\obj\Debug\net
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Entities\obj\Debug\net6.0\ref\Entities.dll
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Entities\bin\Debug\net6.0\Entities.runtimeconfig.json
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
+D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\Entities\obj\Debug\net6.0\Entities.sourcelink.json

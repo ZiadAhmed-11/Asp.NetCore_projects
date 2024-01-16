@@ -17,7 +17,7 @@ namespace Services
         public PersonsService(PersonsDbContext personDbContext, ICountriesServices _countriesService)
         {
             _db = personDbContext;
-            _countriesServices=_countriesService;   
+            _countriesServices = _countriesService;
         }
 
         private PersonResponse ConvertPersonToPersonResponse(Person person)
@@ -30,7 +30,7 @@ namespace Services
         public PersonResponse AddPerson(PersonAddRequest request)
         {
             // check if PersonAddRequest is null
-            if(request==null)
+            if (request == null)
             {
                 throw new ArgumentNullException(nameof(request));
             }
@@ -39,30 +39,32 @@ namespace Services
             ValidationHelper.ModelValidation(request);
 
             // convert PersonAddRequest to Person object - before add to list
-            Person person=request.ToPerson();
+            Person person = request.ToPerson();
 
             // generate PersonId
-            person.PersonId=Guid.NewGuid();
+            person.PersonId = Guid.NewGuid();
 
             //add person object to the list
-            _db.Persons.Add(person);
-            _db.SaveChanges();
+            /* _db.Persons.Add(person);
+             _db.SaveChanges();*/
 
+            _db.sp_InsertPerson(person);
             //convert to PersonResponse
             return ConvertPersonToPersonResponse(person);
-            
+
         }
 
         public List<PersonResponse> GetAllPersons()
         {
-            return _db.sp_GetAllPersons().Select(temp => temp.ToPersonResponse()).ToList();
+            return _db.sp_GetAllPersons()
+         .Select(temp => ConvertPersonToPersonResponse(temp)).ToList();
         }
 
         public PersonResponse? GetPersonByPersonId(Guid? PersonId)
         {
             if (PersonId == null)
                 return null;
-            Person? person= _db.Persons.FirstOrDefault(temp => temp.PersonId == PersonId);
+            Person? person = _db.Persons.FirstOrDefault(temp => temp.PersonId == PersonId);
             if (person == null)
                 return null;
             return person.ToPersonResponse() ?? null;
@@ -73,14 +75,14 @@ namespace Services
             List<PersonResponse> allPersons = GetAllPersons();
             List<PersonResponse> matchingPersons = allPersons;
 
-            if (searchBy == null || searchstring==null)
+            if (searchBy == null || searchstring == null)
                 return matchingPersons;
 
             switch (searchBy)
             {
                 case nameof(PersonResponse.PersonName):
                     matchingPersons = allPersons.Where(temp =>
-                    (temp.PersonName!=null)?temp.PersonName.Contains(searchstring,StringComparison.OrdinalIgnoreCase) : true).ToList();
+                    (temp.PersonName != null) ? temp.PersonName.Contains(searchstring, StringComparison.OrdinalIgnoreCase) : true).ToList();
                     break;
 
                 case nameof(PersonResponse.Email):
@@ -105,10 +107,10 @@ namespace Services
 
                 case nameof(PersonResponse.Address):
                     matchingPersons = allPersons.Where(temp =>
-                    (temp.Address != null) ? temp.Address.Contains(searchstring, StringComparison.OrdinalIgnoreCase)    : true).ToList();
+                    (temp.Address != null) ? temp.Address.Contains(searchstring, StringComparison.OrdinalIgnoreCase) : true).ToList();
                     break;
 
-                default: matchingPersons=allPersons; break;
+                default: matchingPersons = allPersons; break;
             }
             return matchingPersons;
         }
@@ -167,14 +169,14 @@ namespace Services
             Person? matchingPerson = _db.Persons.FirstOrDefault(temp => temp.PersonId == personUpdateRequest.PersonId);
             if (matchingPerson == null)
                 throw new ArgumentException("Given person id doesn't exist");
-            
+
             //update all details
-            matchingPerson.PersonName= personUpdateRequest.PersonName;
-            matchingPerson.Email= personUpdateRequest.Email;
+            matchingPerson.PersonName = personUpdateRequest.PersonName;
+            matchingPerson.Email = personUpdateRequest.Email;
             matchingPerson.DateOfBirth = personUpdateRequest.DateOfBirth;
             matchingPerson.Gender = personUpdateRequest.Gender.ToString();
             matchingPerson.Address = personUpdateRequest.Address;
-            matchingPerson.CountryId=personUpdateRequest.CountryId;
+            matchingPerson.CountryId = personUpdateRequest.CountryId;
             matchingPerson.ReceiveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
 
             _db.SaveChanges(); //Update
@@ -190,7 +192,7 @@ namespace Services
             if (person == null)
                 return false;
 
-            _db.Persons.Remove(_db.Persons.First( temp => temp.PersonId == PersonId));
+            _db.Persons.Remove(_db.Persons.First(temp => temp.PersonId == PersonId));
             _db.SaveChanges();
             return true;
         }

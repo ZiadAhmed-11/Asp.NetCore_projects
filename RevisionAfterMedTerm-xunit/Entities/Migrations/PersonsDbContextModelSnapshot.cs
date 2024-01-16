@@ -81,7 +81,7 @@ namespace Entities.Migrations
                     b.HasData(
                         new
                         {
-                            PersonId = new Guid("e40bf361-ee0a-41de-a647-e0f777522b68"),
+                            PersonId = new Guid("ed046517-7932-47db-9b52-0b81e9722c74"),
                             Address = "KimanFaris",
                             CountryId = new Guid("14629847-905a-4a0e-9abe-80b61655c5cb"),
                             Email = "Ziad.Ahmed202@gmail.com",

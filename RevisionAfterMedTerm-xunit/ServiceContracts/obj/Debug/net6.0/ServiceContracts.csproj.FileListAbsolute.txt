@@ -13,3 +13,4 @@ D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\ServiceContracts\obj\D
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
 D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll
+D:\Asp.Net Core 2023\Solutions\RevisionAfterMedTerm-xunit\ServiceContracts\obj\Debug\net6.0\ServiceContracts.sourcelink.json
