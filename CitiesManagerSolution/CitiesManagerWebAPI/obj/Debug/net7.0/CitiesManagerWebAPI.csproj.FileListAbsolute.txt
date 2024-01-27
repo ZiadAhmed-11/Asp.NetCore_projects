@@ -250,3 +250,8 @@ D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Deb
 D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\Asp.Net Core 2023\Solutions\CitiesManagerSolution\CitiesManagerWebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

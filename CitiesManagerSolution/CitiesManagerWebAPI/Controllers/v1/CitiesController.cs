@@ -8,11 +8,10 @@ using Microsoft.EntityFrameworkCore;
 using CitiesManagerWebAPI.DataBaseContext;
 using CitiesManagerWebAPI.Models;
 
-namespace CitiesManagerWebAPI.Controllers
+namespace CitiesManagerWebAPI.Controllers.v1
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CitiesController : ControllerBase
+    [ApiVersion("1.0")]
+    public class CitiesController : CustomControllerBase
     {
         private readonly AppDbContext _context;
 
@@ -25,10 +24,10 @@ namespace CitiesManagerWebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
-          if (_context.Cities == null)
-          {
-              return NotFound();
-          }
+            if (_context.Cities == null)
+            {
+                return NotFound();
+            }
             return await _context.Cities.ToListAsync();
         }
 
@@ -36,10 +35,10 @@ namespace CitiesManagerWebAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<City>> GetCity(Guid id)
         {
-          if (_context.Cities == null)
-          {
-              return NotFound();
-          }
+            if (_context.Cities == null)
+            {
+                return NotFound();
+            }
             var city = await _context.Cities.FindAsync(id);
 
             if (city == null)
@@ -86,10 +85,10 @@ namespace CitiesManagerWebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<City>> PostCity(City city)
         {
-          if (_context.Cities == null)
-          {
-              return Problem("Entity set 'AppDbContext.Cities'  is null.");
-          }
+            if (_context.Cities == null)
+            {
+                return Problem("Entity set 'AppDbContext.Cities'  is null.");
+            }
             _context.Cities.Add(city);
             await _context.SaveChangesAsync();
 
